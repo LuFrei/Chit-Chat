@@ -1,7 +1,29 @@
 {
+  "name": "chit-chat",
+  "description": "Virtual Chat App working as a base for CI/CD practice and demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuFrei/Chit-Chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuFrei/Chit-Chat/issues"
+  },
+  "homepage": "https://github.com/LuFrei/Chit-Chat#readme",
   "dependencies": {
     "express": "^4.18.1",
-    "nodemon": "^2.0.19",
     "pixi.js": "^6.5.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "nodemon": "^2.0.19",
+    "typescript": "^4.7.4"
   }
 }
