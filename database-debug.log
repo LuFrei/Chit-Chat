@@ -1,0 +1,15 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by io.netty.util.internal.ReflectionUtil (file:/home/lucas/.cache/firebase/emulators/firebase-database-emulator-v4.8.0.jar) to field sun.nio.ch.SelectorImpl.selectedKeys
+WARNING: Please consider reporting this to the maintainers of io.netty.util.internal.ReflectionUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+12:45:43.434 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+12:45:43.573 [main] INFO com.firebase.server.forge.App$ - Listening at localhost:9000
+12:45:46.287 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO com.firebase.core.namespace.NamespaceActor - chit-chat-d5ec4-default-rtdb successfully activated FBKV (SurveyIdle(0)) wait: 93ms, init: 0ms
+12:45:46.370 [NamespaceSystem-blocking-namespace-operation-dispatcher-7:chit-chat-d5ec4-default-rtdb$-1927155387:] INFO com.firebase.core.namespace.StateManager - Namespace chit-chat-d5ec4-default-rtdb status Active to Active
+12:48:39.000 [NamespaceSystem-akka.actor.default-dispatcher-11] INFO com.firebase.core.namespace.NamespaceActor - chit-chat-d5ec4 successfully activated FBKV (SurveyIdle(0)) wait: 3ms, init: 0ms
+13:00:38.911 [Thread-0] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+13:00:38.916 [NamespaceSystem-akka.actor.default-dispatcher-30] INFO com.firebase.core.namespace.Terminator$Terminator - 2 actors left to terminate: chit-chat-d5ec4, chit-chat-d5ec4-default-rtdb
+13:00:38.921 [NamespaceSystem-akka.actor.default-dispatcher-43] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for chit-chat-d5ec4-default-rtdb
+13:00:38.922 [NamespaceSystem-akka.actor.default-dispatcher-42] INFO com.firebase.core.namespace.NamespaceActor - stopped namespace actor for chit-chat-d5ec4
+13:00:38.925 [Thread-0] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
