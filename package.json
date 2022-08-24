@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 0",
     "start": "node app.ts"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/LuFrei/Chit-Chat#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "firebase": "^9.9.3",
     "pixi.js": "^6.5.1"
   },
   "devDependencies": {
