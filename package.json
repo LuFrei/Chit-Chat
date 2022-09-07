@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js",
     "start:test": "nodemon start"
   },
@@ -25,7 +25,6 @@
   },
   "devDependencies": {
     "jest": "^28.1.3",
-    "nodemon": "^2.0.19",
-    "typescript": "^4.7.4"
+    "nodemon": "^2.0.19"
   }
 }
