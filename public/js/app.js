@@ -9,7 +9,7 @@ document.body.appendChild(pixi.view);
 
 // Add container with square
 let frame = new PIXI.Graphics();
-frame.beginFill(0x666666);
+frame.beginFill(0x660000);
 frame.lineStyle({ color: 0xffffff, width: 4, alignment: 0 });
 frame.drawRect(0, 0, 208, 208);
 frame.position.set(100, 100);
